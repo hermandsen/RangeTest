@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model bool
+@if (Model)
+{
+    <video src="/Home/Video" controls width="600" height="400"></video>
+}
+else
+{
+    <p>Please copy a video to <strong><code>C:\video.mp4</code></strong> for this test.</p>
+}
